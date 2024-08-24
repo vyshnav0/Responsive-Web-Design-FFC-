@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>CatPhotoApp</title>
+</head>
+<body>
+    <h1>CatPhotoApp</h1>
+    <h2>Cat Photos</h2>
+    <p>See more cat photos <a href="https://unsplash.com/s/photos/cute-cat" target="_blank">here</a></p>
+    <img src="https://s3.amazonaws.com/freecodecamp/relaxing-cat.jpg" alt="Mr. Ginger">
+
+    <section>
+        <h2>Cat Lists</h2>
+        <h3>Things Cats love:</h3>
+        <ul>
+            <li>Cat nip</li>
+            <li>Laser pointers</li>
+            <li>Lasagna</li>
+        </ul>
+        <figure>
+            <img src="https://cdn.freecodecamp.org/curriculum/cat-photo-app/lasagna.jpg" alt="A slice of lasagna">
+            <figcaption>Cats <em>love</em> lasagna</figcaption>
+        </figure>
+        
+        <h3>Top 3 things cats hate:</h3>
+        <ol>
+            <li>flea treatment</li>
+            <li>thunder</li>
+            <li>other cats</li>
+        </ol>
+        <figure>
+            <img src="https://cdn.freecodecamp.org/curriculum/cat-photo-app/cats.jpg" alt="group of cats">
+            <figcaption>Cats <strong>hate</strong> other cats</figcaption>
+        </figure>
+    </section>
+    <section>
+        <h2>Cat Form</h2>
+        <form action="https://freecatphotoapp.com/submit-cat-photo">
+            <fieldset>
+                <legend>Is your cat indoor or outdoor</legend>
+                <label><input type="radio" name="indoor-outdoor"> Indoor</label>
+                <label><input type="radio" name="indoor-outdoor"> Outdoor</label>
+            </fieldset>
+    
+            <fieldset>
+                <legend>Choose personality of your cat</legend>
+                <label><input type="checkbox" name="personality" id="loving"> Loving</label>
+                <label><input checked type="checkbox" name="personality" id="lazy"> Lazy</label>
+                <label><input type="checkbox" name="personality" id="energetic"> Energetic</label>
+            </fieldset>
+            <input required type="text" name="catphotourl" placeholder="Cat photo URL">
+            <button>Submit</button>
+        </form>
+    </section>
+
+    <footer>
+        <p>No Copyright: <a href="/">Mine</a></p>
+    </footer>
+</body>
+</html>
