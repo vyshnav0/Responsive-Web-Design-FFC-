@@ -1,0 +1,79 @@
+body {
+    background-image: url(https://cdn.freecodecamp.org/curriculum/css-cafe/beans.jpg);
+}
+
+h1, h2, p {
+    margin-top: 0;
+    text-align: center;
+}
+h1{
+    font-size: 40px;
+    margin-bottom: 1px;
+}
+h2{
+    font-size: 30px;
+    margin-bottom: 0;
+    display: inline-block;
+    vertical-align: middle;
+}
+section{
+    text-align: center;
+}
+.established{
+    font-size: 1rem;
+    font-style: italic;
+}
+hr{
+    height: 1px;
+    background-color: brown;
+    border-color: brown;
+}
+.menu {
+    background-color: burlywood;
+    width: 80%;
+    margin-left: auto;
+    margin-right: auto;
+    padding: 20px;
+}
+
+/* The inline-block value allows elements to maintain block-level styling (like setting width and height)
+while still allowing them to be placed inline with other elements. */
+.list p {
+    display: inline-block;
+    font-size: 1.2em;
+    margin-bottom: 8px;
+}
+
+.item {
+    text-align: left;
+    width: 70%;
+}
+
+.price {
+    text-align: right;
+    width: 25%;
+}
+
+img{
+    vertical-align: middle;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 0;
+    margin-bottom: 0;
+}
+
+footer {
+    text-align: center;
+}
+a{
+    color: brown;
+}
+a:hover{
+    color: brown;
+}
+a:visited{
+    color: black;
+}
+a:active{
+    color: green;
+}
