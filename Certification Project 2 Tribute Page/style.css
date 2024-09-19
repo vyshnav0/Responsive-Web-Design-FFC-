@@ -1,0 +1,23 @@
+
+body{
+    background-color: #2a3439;
+    text-align: center;
+    color: white;
+}
+
+h1{
+    color: whitesmoke;
+}
+
+a{
+    text-decoration: none;
+    color: wheat;
+}
+
+img{
+    display: block;
+}
+#image{
+    max-width: 100%;
+    height: auto;
+}
